@@ -1,0 +1,261 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2::selection{
+    background-color: #58262d;
+}
+p::selection{
+    background-color: #58262d;
+}
+h3::selection{
+    background-color: #58262d;
+}
+h4::selection{
+    background-color: #58262d;
+}
+a::selection{
+    background-color: #58262d;
+}
+main{
+    background-image: url(../Images/main.webp);
+    position: relative;
+    background-size: cover; 
+    height:100vh;
+ }
+.main{
+    position: absolute;
+    width: 600px;
+    height: 320px;
+    border:2px solid black;
+    background-color: rgb(255, 255, 255,.9);
+    top:25%;
+    left:25%;
+}
+
+@media (max-width:992px){
+    main{
+        background-image: url(../Images/main.webp);
+        position: relative;
+        background-size: cover; 
+        height:100vh;
+     }
+    .main{
+        position: absolute;
+        width: 500px;
+        height: 320px;
+        border:2px solid black;
+        background-color: rgb(255, 255, 255,.9);
+        top:10%;
+        left:20%;    }
+  }
+  @media (max-width:768px){
+
+    main{
+        background-image: url(../Images/main.webp);
+        position: relative;
+        background-size: cover; 
+        height:100vh;
+     }
+    .main {
+        position: absolute;
+        width: 400px;
+        height: 320px;
+        border:2px solid black;
+        background-color: rgb(255, 255, 255,.9);
+        padding-left: 20px;
+        top:10%;
+        left:10%;
+    }
+  }
+
+  @media (max-width:576px){
+    main{
+        background-image: url(../Images/main.webp);
+        position: relative;
+        background-size: cover; 
+        height:100vh;
+     }
+    .main {
+        position: absolute;
+        width: 330px;
+        height: 320px;
+        border:2px solid black;
+        background-color: rgb(255, 255, 255,.9);
+        padding-left: 20px;
+        top:10%;
+        left:5%;
+    }
+  }
+.h1{
+    font-size: 60px;
+}
+.p1{
+    font-size: 22px;
+    color: grey;
+}
+/* //////////////////////////////////////////////////////// */
+.section_2{
+    margin-top: 100px;
+}
+.line{
+    height:3px;
+    margin: auto;
+    background-color: grey;
+}
+.lines h2{
+    text-align: center;
+}
+.kids img,.professional img{
+    border:2px solid grey;
+}
+.kids,.professional{
+    position: relative;
+}
+.professional button{
+    position: absolute;
+    border:2px solid black;
+    width:250px;
+    height:90px;
+    background-color: white;
+    top:40%;
+    left:25%;
+    font-size: 18px;
+}
+.kids button{
+    position: absolute;
+    border:2px solid black;
+    width:250px;
+    height:90px;
+    background-color: white;
+    top:40%;
+    left:25%;
+    font-size: 18px;
+}
+.kids button:hover{
+    background-color: black;
+    color: white;
+}
+.professional button:hover{
+    background-color: black;
+    color: white;
+}
+.kids-pro img{
+    width: 100%;
+}
+.kids-art:hover{
+    transform: scale(1.09,1.09);
+}
+.kkids{
+    position: relative;
+    cursor: pointer;
+}
+.sale{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 80px;
+}
+.prics{
+    margin: 10px auto;
+}
+.btn-5{
+    width: 40%;
+    height: 4rem;
+    border: 2px solid black;
+    background-color: none;
+    font-size: 1.4rem;
+    border-radius: 3rem;
+}
+.btn-5:hover{
+    background-color: rgb(49, 47, 47);
+    color: white;
+}
+.section5{
+    height:26rem;
+    margin-top: 3rem;
+}
+.contentt{
+    width:50%;
+    height: 100%;
+    margin: auto;
+}
+.section5 h2{
+    padding-top: 5%;
+    font-size:2.3rem;
+    color: grey;
+}
+.section5 p{
+    padding-top: 10%;
+    margin-bottom: 10%;
+    font-size: x-large;
+}
+.section5 button{
+    margin-left: 25%;
+}
+@media (max-width:768px){
+    .section5 button {
+        width: 55%;
+        height: 3.5rem;
+        font-size: 1rem;
+        left:0%;
+    }
+}   
+@media (max-width:576px){
+    .section5 h2 {
+        font-size:1.9rem;
+    }
+    .section5 p {
+        font-size:large;
+    }
+}
+@media (max-width:576){
+    .professional button{
+        width:180px;
+        height:80px;
+        background-color: white;
+        top:40%;
+        left:15%;
+    }
+    .kids button{
+        width:180px;
+        height:80px;
+        background-color: white;
+        top:40%;
+        left:15%;
+    }
+}
+/* ///////////////////////////////////////////////// */
+.section_6{
+    margin-top: 4%;
+}
+.section_6 img{
+width: 100%;
+}
+.p_6{
+    line-height: 2;
+    font-size: 1rem;
+}
+footer a{
+    text-decoration: none;
+    line-height: 2rem;
+    color: grey;
+}
+footer{
+    background-color: #F6F6F6;
+    border: 2px solid #a5273a;
+}
+.a-paragraph{
+    color: #55121b;
+    text-align: center;
+}
+footer h2{
+    font-size: 23px;
+    padding-top: 2rem;
+}
+footer a:hover{
+    border: 2px solid #a5273a;
+    color: #58262d;
+    padding: 5px;
+}

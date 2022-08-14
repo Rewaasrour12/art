@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawing</title>
+    <link  rel="stylesheet"  href="css/style.css"/>
+    <link  rel="stylesheet"  href="css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+<body>
+<!-- ////////////////////////////// Header /////////////////////// -->
+<nav class="navbar sticky-top bg-light " style="opacity: .7;">
+    <div class="container">
+        <img src="Images/logo7.png" width="60px" height="50px" class="me-3 rounded-circle col-sm-1">
+        <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="navbar-collapse collapse" id="main" style>
+            <form class="d-flex col-sm-5 search-place navbar-nav ms-auto mb-2 mb-lg-0">
+              <input class="form-control me-2" type="search" placeholder="Search">
+              <button class="btn btn-secondary" type="button">Search</button>
+            </form>
+            <form class="d-flex ">
+              <i class="fas fa-user-plus me-3 person " style="font-size: 25px;color: rgb(31, 51, 99);cursor: pointer;border-right:1px solid rgb(73, 25, 25);padding-right: 5px;" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Sign Up"></i>
+              <i class="fas fa-sign-in-alt me-3 person" style="font-size: 25px;color: rgb(31, 51, 99);cursor: pointer;border-right:1px solid rgb(77, 26, 26);padding-right: 5px;" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Sign In"></i>
+            <i class="fas fa-cart-plus shopping  me-2" style="font-size: 25px; cursor: pointer;color: rgb(31, 51, 99);"><span class="badge bg-danger" style="font-size: 9px;">0</span></i>
+            </form>         
+        </div>
+<!-- ////////////////////////////// -->
+</nav>
+<div class="offcanvas offcanvas-end" id="demo">
+    <div class="offcanvas-header">
+      <h1 class="offcanvas-title text-secondary">Navigation</h1>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="dropdown">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown">
+          Shop
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item text-info " href="#">Professional Art</a></li>
+          <li><a class="dropdown-item text-info " href="#">Kids Art</a></li>
+        </ul>
+      </div>
+      <hr class="dropdown-divider">
+      <a  class="dropdown-item" target="_blank"  href="#home">Home</a>
+      <hr class="dropdown-divider">
+        <a class="dropdown-item" target="_blank" href="#about">About</a>
+        <hr class="dropdown-divider">
+        <a class="dropdown-item" target="_blank" href="#foot"> FAQ</a>
+        <hr class="dropdown-divider">
+        <a class="dropdown-item" target="_blank" href="#contact">Contact</a>
+        <hr class="dropdown-divider">
+    </div>
+  </div>
+<main class="container" id="home">
+    <div class="main pt-4 ps-5">
+        <h1 class="h1">ARTS & CRAFTS SUPPLIES FOR EVERYONE</h1>
+        <p class="p1 pt-4 pb-3">I'm a title. Click here to add your own text and edit me. 
+        </p>
+        <button class="btn btn-secondary btn1" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+          Explore the site</button>
+          <button class="spinner-grow spinner-grow-sm "></button>
+        </div></div>
+</main>
+<!-- ///////////////////Section_2////////////////////// -->
+<secttion class="section_2 container " id="about">
+    <div class="lines container">
+        <p class="line"></p>
+        <h2>SHOP BY CATEGORIES </h2>
+        <p class="line mb-3"></p>
+    </div>
+    <div class="row justify-content-center kids-pro container-fluid ">
+        <div class="professional col-lg-6 col-md-12 col-sm-12 mb-3" style="width: 30rem;">
+        <img src="Images/professional.webp" class="professional-image" >
+        <button>Professional Art</button>
+        </div>
+        <!-- col-lg-6  col-sm-12  -->
+        <div class="kids col-lg-6  col-sm-12 " style="width:30rem;">
+            <img src="Images/kids.webp" class="kids-image">
+            <button>Kids Art</button>
+        </div>
+    </div>
+</secttion>
+<!-- ///////////////////Section_3////////////////////// -->
+<secttion class="section_3 container ">
+  <div class="lines container">
+      <p class="line"></p>
+      <h2>Kids Art </h2>
+      <p class="line mb-5"></p>
+  </div>
+  <div class="row justify-content-center kids-pro container-fluid ">
+    <div class=" col-xl-4 col-md-12 col-sm-12 kkids" style="width: 23rem;">
+    <img src="Images/kids1.webp" class="kids-art img-thumbnail" >
+    <span class="badge rounded-pill bg-danger sale">sale</span>
+    <div class="prics">
+    <h3 class="d-inline text-danger ps-5"><del>30$</del></h3>
+    <h3 class="d-inline text-secondary ps-5">25$</h3>
+  </div>
+    </div>
+    <div class=" col-xl-4  col-sm-12 kkids" style="width:23rem;">
+        <img src="Images/kids2.webp" class="kids-art img-thumbnail">
+        <div class="prics">
+        <h3 class="d-inline text-danger ps-5"><del>25$</del></h3>
+        <h3 class="d-inline text-secondary ps-5">20$</h3>
+        <span class="badge rounded-pill bg-danger sale">sale</span>
+        </div>
+    </div>
+    <div class=" col-xl-4 col-sm-12  kkids" style="width:23rem;">
+      <img src="Images/kids3.webp" class="kids-art img-thumbnail">
+      <span class="badge rounded-pill bg-danger sale">sale</span>
+      <div class="prics">
+      <h3 class="d-inline text-danger ps-5"><del>30$</del></h3>
+      <h3 class="d-inline text-secondary ps-5">25$</h3>
+      </div>
+  </div>
+</div>
+</secttion>
+<!-- ///////////////////Section_4////////////////////// -->
+<secttion class="section_4 container ">
+  <div class="lines container">
+      <p class="line"></p>
+      <h2>Professional Art </h2>
+      <p class="line mb-5"></p>
+  </div>
+  <div class="row justify-content-center kids-pro container-fluid ">
+    <div class=" col-xl-4 col-md-12 col-sm-12 kkids" style="width: 23rem;">
+    <img src="Images/pro1.webp" class="kids-art img-thumbnail" >
+    <span class="badge rounded-pill bg-danger sale">sale</span>
+    <div class="prics">
+    <h3 class="d-inline text-danger ps-5"><del>150$</del></h3>
+    <h3 class="d-inline text-secondary ps-5">130$</h3>
+  </div>
+    </div>
+    <div class=" col-xl-4  col-sm-12 kkids" style="width:23rem;">
+        <img src="Images/pro8.webp" class="kids-art img-thumbnail">
+        <div class="prics">
+        <h3 class="d-inline text-danger ps-5"><del>100$</del></h3>
+        <h3 class="d-inline text-secondary ps-5">90$</h3>
+        <span class="badge rounded-pill bg-danger sale">sale</span>
+        </div>
+    </div>
+    <div class=" col-xl-4 col-sm-12  kkids" style="width:23rem;">
+      <img src="Images/pro6.webp" class="kids-art img-thumbnail">
+      <span class="badge rounded-pill bg-danger sale">sale</span>
+      <div class="prics">
+      <h3 class="d-inline text-danger ps-5"><del>100$</del></h3>
+      <h3 class="d-inline text-secondary ps-5">85$</h3>
+      </div>
+  </div>
+</div>
+</secttion>
+<!-- //////////////////////////////Section_5///////////////////////////// -->
+<section class="container bg-light section5">
+  <div class="contentt">
+<h2 style="text-align: center;" class="h2 pt-70">NEW PRODUCTS ARRIVING EACH WEEK!</h2>
+<p style="text-align: center;">I'm a paragraph. Click here to add your own text and edit me.</p>
+<button type="button" class="btn-5">Shop Now</button>
+</div>
+</section>
+<!-- //////////////////////////////Section_6/////////////////////// -->
+<section class="section_6 container ">
+  <p class="line"></p>
+<div class="container section6 pt-5"></div>
+<div class="row container justify-content-center reveal fade-left">
+    <div class="prics col-xl-6 col-md-6 col-sm-12" style="width:22rem;">
+  <img src="Images/kids4.webp" class="kids-art rounded"  >
+</div>
+  <p class=" text-secondary ps-5 col-xl-6 col-md-6 col-sm-12 p_6 pt-2">Teaching a child to draw is mostly a question of observing their progress and offering them new methods of exploration. For the first five years of a child's life,
+     your teaching will be limited to providing space, time, tools, and encouragement
+     In later years, you may offer to teach a child new skills, such as drawing from observation, practicing perspectives, and drawing correct proportions. Avoid pushing children to change style or approach, and do not offer criticism or correction. Rather, encourage, observe, and ask open-ended
+      questions that will help a child-artist see and imagine more details and possibilities.</p>
+  <p class="pt-5"></p>
+  <div class="row container justify-content-center ">
+  <p class=" text-secondary ps-5 col-xl-6 col-md-6 col-sm-12 p_6 pt-4 ms-5">Drawing has seen something of a renaissance in the last twenty years in the UK. From the Campaign for Drawing to the Drawing Research Network, from the Drawing Room to the Rabley Drawing Centre, we've witnessed a proliferation of passion, effort and energy matched by increased museum exhibitions, dedicated degree courses, professors, publications and conferences.
+All of the above have been established in pursuit of understanding, developing and promoting drawing, and many inside and outside the sector endure to evidence drawing as both the most sophisticated means of thinking and communicating, and an activity for all.</p>
+<div class="prics col-xl-6 col-md-6 col-sm-12" style="width:24rem;">
+  <img src="Images/logo6.jpg" class="kids-art rounded"  >
+</div>
+  </div>
+  <p class="line mt-5 mb-5"></p>
+</section>
+<!-- ///////////////////////////////////////////////////////////////////////////////// -->
+<section class="container-fluid row justify-content-around mb-5">
+<div class="card col-xl-4 col-md-6 col-sm-12  bg-light mb-3" style="width: 20rem;">
+  <div class="card-body">
+    <h4 class="card-title text-secondary">Emma James</h4>
+    <p class="card-text">Emma James is  an excellent Art Instructor.</p>
+    <p class="card-text">You can  learn with her now!</p>
+
+    <a href="#" class="btn btn-secondary">See Profile</a>
+  </div>
+  <img class="card-img-bottom rounded" src="Images/instruc5.jpg" alt="Card image" style="width:100%" height="50%">
+</div>
+</div>
+<div class="card col-xl-4 col-md-6 col-sm-12 bg-light mb-3 "style="width: 20rem;">
+  <div class="card-body">
+    <h4 class="card-title text-secondary">Jane Doe </h4>
+    <p class="card-text"> Jane Doe is an excellent Art Instructor. </p>
+    <p class="card-text">You can learn with him now!</p>
+    <a href="#" class="btn btn-secondary">See Profile</a>
+  </div>
+  <img class="card-img-bottom rounded" src="Images/instruc4.jpg " alt=" Card image" style="width:100%" height="50%">
+</div>
+</div>
+<div class="card col-xl-4 col-md-6 col-sm-12 bg-light mb-3" style="width: 20rem;">
+  <div class="card-body">
+    <h4 class="card-title text-secondary">Claire Lucas </h4> 
+    <p class="card-text"> Jane Doe is  an excellent Art Instructor. </p>
+    <p class="card-text">You can learn with her now!</p>
+    <a href="#" class="btn btn-secondary">See Profile</a>
+  </div>
+  <img class="card-img-bottom rounded" src="Images/instru2.jpg" alt="Card image" style="width:100%">
+</div>
+</div>
+</section>
+<!-- ////////////////////////////////////////////////////////////////// -->
+<p class="line mt-5 mb-5 container"></p>
+<section class="container bg-light" id="contact">
+  <form class="row g-3 ">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" required>
+    </div>
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" required>
+    </div>
+    <div class="col-12">
+      <label for="inputAddress" class="form-label">Address</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+    </div>
+    <div class="col-12">
+      <label for="inputAddress2" class="form-label">Address 2</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" required>
+    </div>
+    <div class="col-md-6">
+      <label for="inputCity" class="form-label">City</label>
+      <input type="text" class="form-control" id="inputCity" required>
+    </div>
+    <div class="col-md-4">
+      <label for="inputState" class="form-label">State</label>
+      <select id="inputState" class="form-select" required>
+        <option selected hidden>Choose...</option>
+        <option>Morocco</option>
+        <option>Sudan</option>
+        <option>Tunisia</option>
+        <option>Egypt</option>
+        <option>Libya</option>
+        <option>Albania</option>
+        <option>Austria</option>
+        <option>Denmark</option>
+        <option>Germany</option>
+        <option>France</option>
+        <option>Italy</option>
+        <option>Ireland</option>
+      </select>
+    </div>
+    <div class="col-md-2">
+      <label for="inputZip" class="form-label">Zip</label>
+      <input type="text" class="form-control" id="inputZip" required>
+    </div>
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck" required>
+        <label class="form-check-label" for="gridCheck">I Agree all</label>
+      </div>
+    </div>
+    <div class="col-12">
+      <button type="submit" class="btn btn-secondary mb-3">Submit</button>
+    </div>
+  </form> 
+</section>
+<!-- ///////////////////////////////// Footer /////////////////////////////////////// -->
+  <footer class=" container  text-light mt-5 p-2 pb-3 " id="foot">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-4">
+        <h2 class="text-dark">Shop</h2>
+          <ul class="a-list  a-list--unstyled">
+            <li><a class="footer_link" href="#">Shop Professional Art</a></li>
+            <li><a class="footer_link" href="#">Shop Kids Art</a></li>
+            <li><a class="footer_link" href="#">Shipping & Returns </a></li>
+            <li><a class="footer_link" href="#">Store Policy </a></li>
+            <li><a class="footer_link" href="#">Payment Methods </a></li>
+            </ul>
+        </div>
+        <div class="col-md-4 foot-bord" style=" border-right: 2px solid #a5273a; border-left: 2px solid #a5273a;">
+            <h2 class="text-dark">Contact</h2>
+            <ul class="a-list  a-list--unstyled">
+              <li><a class="footer_link" href="#">500 Terry Francois Street</a></li>
+              <li><a class="footer_link" href="#">San Francisco, CA 94158</a></li>
+              <li><a class="footer_link" href="#"> </a></li>
+              <li><a class="footer_link" href="#">info@mysite.com</a></li>
+              <li><a class="footer_link" href="#">123-456-7890</a></li>
+              </ul>
+          </div>
+        <div class="col-md-4" >
+          <h2 class="text-dark">Help</h2>
+          <ul class="a-list  a-list--unstyled">
+            <li><a class="footer_link" href="#">help & FAQ</a></li>
+            <li><a class="footer_link" href="#">shipments</a></li>
+            <li><a class="footer_link" href="#"> Return Policy</a></li>
+            <li><a class="footer_link" href="#">pay in 3 instalment</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <p class="a-paragraph pt-4 pb-3" >Copyright ©2022 . All Rights Reserved</p>				
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
